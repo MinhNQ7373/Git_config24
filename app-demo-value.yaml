@@ -5,8 +5,8 @@
 replicaCount: 2
 
 image:
-  repository: harbor.prod.viettq.com/demo/my-app
-        #repository: minhnq7373/nginx:may24
+        #repository: harbor.prod.viettq.com/demo/my-app
+  repository: minhnq7373/app-demo:v1
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1"
